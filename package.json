@@ -1,0 +1,21 @@
+{
+  "name": "rain",
+  "version": "1.0.0",
+  "description": "Rain is a infrastructure automation and management tool written in NodeJS ",
+  "main": "rain.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtiwariops/rain.git"
+  },
+  "author": "Ravi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rtiwariops/rain/issues"
+  },
+  "homepage": "https://github.com/rtiwariops/rain#readme"
+}
