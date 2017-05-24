@@ -78,15 +78,15 @@ var _Logger = new Class(function() {
 			console.log('[ERROR] : Failed to initialize LOG4J implementation.An incorrect path was specified.',log4jprops);
 		}
 	});
-	}
+	
 	this.RAINLogger = function(self) {
 		var log4jconf = path.join(path.dirname(fs.realpathSync(__filename)),'../config/log4js.json');
 		log4js.configure(log4jconf);
 		var logger = log4js.getLogger();
 		return logger;
 	};
-});
-
+	});
+}
 /*
 * Exporting the class
 */
