@@ -2,9 +2,5 @@
  * New node file
  */
 alias = require('module-alias/register')
-log = require('@root/log4j.js')
+log = require('@log4j')
 logs = new log().RAINLogger();
-
-
-
-exports.logs = logs;

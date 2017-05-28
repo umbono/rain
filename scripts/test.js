@@ -1,10 +1,17 @@
 /**
  * New node file
  */
-//Mandatory to load all custom modules
-var shower = require('./shower.js');
+// Mandatory to load all custom modules
+const shower = require('./shower.js');
+logs.debug("lsls")
+//
+//var readYaml = require('read-yaml');
+//
+//readYaml('test.yaml', function(err, data) {
+//	if (err)
+//		throw err;
+//	if(data.development.LOGS != undefined || data.development.LOGS != false) {
+////		logs.debug("lsls")
+//}
+//});
 
-logs.debug("Debug");
-logs.info("Info");
-logs.error("Error");
-logs.trace("Trace");

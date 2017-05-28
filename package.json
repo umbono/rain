@@ -18,8 +18,9 @@
     "url": "https://github.com/rtiwariops/rain/issues"
   },
   "_moduleAliases": {
-	  "@root": "./lib/",
-	  "log4j.js" : "log4j.js"
+	  "@root": ".",
+	  "@log4j" : "lib/log4j.js",
+	  "@constants" : "utils/constants.js"
 	},
   "homepage": "https://github.com/rtiwariops/rain#readme"
 }

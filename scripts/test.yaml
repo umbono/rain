@@ -1,0 +1,9 @@
+# Development-specific settings. 
+development:
+  PORT: 3000
+  DROP_DATABASE: true
+  LOGS: true
+# Production-specific settings. 
+production:
+  PORT: 80
+  DROP_DATABASE: false
