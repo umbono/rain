@@ -19,8 +19,10 @@
   },
   "_moduleAliases": {
 	  "@root": ".",
-	  "@log4j" : "lib/log4j.js",
-	  "@constants" : "utils/constants.js"
+	  "@log4j" : "lib/utils/log4j.js",
+	  "@constants" : "lib/constants.js",
+	  "@cmd" : "lib/utils/cmd.js",
+	  "@ping" : "lib/utils/ping.js"
 	},
   "homepage": "https://github.com/rtiwariops/rain#readme"
 }

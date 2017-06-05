@@ -1,0 +1,21 @@
+# Development-specific settings. 
+# This Drop is to test the ping action across any number of hosts. 
+# Madatory Options
+# DROPS [Need to be a parent node]
+#   ACTION: [Action can be any action that you want to perform: example ping]
+#   HOSTS:  [Type any number of hosts seperated by commas]
+#   ALIVE:  [Check is disabled by defaut, But you can add entry as shown below]
+#   TIMEOUT:[]
+DROPS:
+    ACTION: ping
+    HOSTS: 10.210.7.84,10.210.7.84,10.210.7.99
+    TIMEOUT: 
+    NETWORKPROTOCOL: ping.NetworkProtocol.IPv4
+    PACKETSIZE: 32
+    RETRIES: 1
+    TTL: 128
+    MAXHOPTIMEOUTS: 1000
+## Production-specific settings. 
+#production:
+#  PORT: 80
+#  DROP_DATABASE: false
