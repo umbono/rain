@@ -15,4 +15,4 @@ set RAIN_HOME=C:\Users\rtiwari\workspace\RAIN
 call "%RAIN_HOME%\bin\setRAINEnv.cmd"
 
 @rem Start Node interpreter with RAIN
-%RAIN_NODE% %ARGS%
+%RAIN_NODE% %MOIST_HOME% %PARAM% %ARGS%
