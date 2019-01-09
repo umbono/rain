@@ -1,7 +1,7 @@
 
 
-# RAIN
-Global Infrastructure Automation & Management tool (written in nodeJS)
+# RAIN - Currently on Hold.
+Global Infrastructure Automation & Management tool (written in nodeJS). 
 
 ## Activity
 You can find activity logs on wiki : https://github.com/rtiwariops/rain/wiki
